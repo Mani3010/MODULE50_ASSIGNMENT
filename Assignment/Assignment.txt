@@ -1,0 +1,128 @@
+Question 1:
+A database is a structured collection of data that is stored and
+managed in a way that allows for efficient retrieval, manipulation,
+and management. It organizes data into tables (or other structures)
+that can be easily queried and updated. Databases are designed to
+handle large amounts of data and support multiple users accessing
+and modifying the data simultaneously.
+Need of Databases:
+Efficient Data Management
+Avoid Data Redundancy
+Avoid Limited Access Control
+Easy Querying and Reporting
+-----------------------------****-------------------------------------
+Question 2:
+A file-based storage system manages data using files stored on a
+computer’s file system. Data is typically stored in plain text or
+binary files, organized in directories or folders. Each file is an
+independent unit of storage, and applications must handle file creation,
+reading, updating, and deletion directly.
+Major Challenges:
+Data Redundancy and Inconsistency
+Difficulty in Data Management
+Lack of Scalability
+Concurrency Issues
+Complex Data Retrieval
+-----------------------------****-------------------------------------
+Question 3:
+DBMS (Database Management System) is software that provides an interface 
+for managing and interacting with databases. It allows users to create, update,
+manage, and retrieve data efficiently while ensuring data integrity, security, and consistency.
+DBMS abstracts the complexities of data storage and retrieval, making it easier for users to interact with data through 
+structured queries and operations.
+Why Was There a Need for DBMS?
+Data Redundancy and Consistency
+Efficient Data Management
+Data Integrity
+Security
+-----------------------------****-------------------------------------
+Question 4:
+Challenges of File-Based Storage Systems Addressed by DBMS:
+Data Redundancy and Inconsistency
+Data Integrity
+Efficient Data Management
+Concurrency Control
+Data Security
+Backup and Recovery
+Scalability
+-----------------------------****-------------------------------------
+Question 5:
+classification in DBMS based on data models:
+1. Relational Data Model
+The relational data model organizes data into tables
+(also called relations), each consisting of rows (tuples) and 
+columns (attributes). Tables can be related to one another 
+through keys.
+2. Hierarchical Data Model
+The hierarchical data model organizes data in a tree-like structure 
+where each record has a single parent and zero or more children. 
+It reflects a parent-child relationship.
+3. Network Data Model
+The network data model represents data in a graph structure where
+entities can have multiple parent and child relationships,
+allowing for more complex interrelationships.
+4. Object-Oriented Data Model
+The object-oriented data model stores data as objects,
+ similar to object-oriented programming. Objects encapsulate
+  both data and behaviors (methods).
+  Classification Based on Number of Users
+1. Single-User Database
+A single-user database is designed for use by one person at a time.
+ It is generally used in personal or small-scale applications
+  where multiple simultaneous users are not required.
+2. Multi-User Database
+A multi-user database is designed to handle multiple users
+ accessing and modifying the database simultaneously.
+  It is used in environments where several users need to
+   interact with the data concurrently.
+Classification Based on Database Distribution
+1. Centralized Database Systems
+In a centralized database system, all data is stored and managed
+ in a single central location or server. All database 
+ operations, such as queries and updates, are handled by this
+  central server.
+2. Distributed Database Systems
+In a distributed database system, data is distributed across
+ multiple locations or servers. The system provides a unified 
+ view of the data, despite its physical distribution.  
+-----------------------------****-------------------------------------
+Question 6:
+Data modeling is a critical process in database design and management
+ that involves creating a conceptual framework for how data is 
+ organized, related, and stored. The significance of data 
+ modeling includes:
+Hierarchical Model: Organizes data in a tree structure with a single
+ parent-child relationship. Suitable for hierarchical data but less
+  flexible for complex relationships.
+Network Model: Uses a graph structure to support many-to-many
+ relationships and more complex data navigation. More flexible 
+ but harder to manage.
+Relational Model: Uses tables with rows and columns to represent 
+data and relationships. It is flexible and widely used due to its
+ support for complex queries and data integrity.
+Physical Data Model: Focuses on how data is physically stored 
+and optimized for performance and storage.
+-----------------------------****-------------------------------------
+Question 7:
+Three-Schema Architecture
+The Three-Schema Architecture is a framework designed to provide a
+ clear separation of concerns in database systems, allowing for data
+  abstraction and independence. It defines three levels of database
+   schema to manage how data is stored, accessed, and viewed. The
+    architecture aims to support data abstraction and independence
+     by separating the physical storage details from the logical 
+     structure and the user views of the data.
+1. Internal Schema (Physical Schema)
+ Defines how data is physically stored on the storage media
+  (e.g., hard drives or SSDs). It describes the 
+low-level data structures and access methods used by the database
+ management system (DBMS).
+2. Conceptual Schema (Logical Schema)
+Purpose: Provides a unified view of the entire database. 
+It describes the data model, including the relationships 
+between data entities, without concerning itself with physical
+ storage details.
+3. External Schema
+Represents different views or subsets of the data as seen by different
+ users or user groups. It provides customized views of the data to
+  meet specific user needs.
